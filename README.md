@@ -1,38 +1,67 @@
-Python Calculator 🧮
+# 🧮 Simple Python Calculator
 
-A simple calculator built using Python that performs basic arithmetic operations.
+![Python](https://img.shields.io/badge/python-3.x-blue?logo=python\&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Features
+A basic Python calculator that evaluates mathematical expressions entered by the user. It uses Python's `eval()` function for evaluating expressions and includes error handling for invalid inputs.
 
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
-- User-friendly input
-- Handles invalid input
+---
 
-How It Works
+## 🚀 Features
 
-The user selects an operation and enters numbers.
-The program then calculates and displays the result.
+* Supports basic arithmetic operations: `+`, `-`, `*`, `/`, `**`, `%`, `()`
+* Continuous operation until user exits
+* Input validation with error handling for invalid expressions
+* Exit the calculator by typing `quit`
 
-How to Run
+---
 
-1. Make sure Python is installed
-2. Run the file:
+## 🎮 How to Use
 
-python calculator.py
+1. Run the Python script:
 
-Example
+   ```bash
+   python calculator.py
+   ```
+2. Enter any mathematical operation, e.g.:
 
-Enter choice (+,-,*,/): +
-Enter first number: 10
-Enter second number: 5
-Result: 15
+   ```
+   5 + 7
+   12 / 4
+   2 ** 3
+   ```
+3. View the result immediately.
+4. To exit the calculator, type:
 
-Future Improvements
+   ```
+   quit
+   ```
 
-- Support multiple numbers (using lists)
-- Expression-based calculator (like mobile calculator)
-- Add loop for continuous calculations
-- Improve user interface
+---
+
+## ⚠️ Important Notes
+
+* This calculator uses Python's `eval()` function, which can execute any Python code. Use responsibly.
+* Invalid input such as non-math expressions will return an error message.
+* This project is created for learning purposes because the I am a beginner.
+
+---
+
+## 🛠 Requirements
+
+* Python 3.x
+* No external libraries required
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Add new features or improve error handling
+3. Submit a pull request with a description of your changes
+
+---
+
+## 📄 License
+
+MIT License – free to use and modify for educational purposes.
